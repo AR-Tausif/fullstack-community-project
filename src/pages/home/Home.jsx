@@ -1,5 +1,6 @@
 import BannerHero from "../../components/bannerHero/BannerHero";
 import Featured from "../../components/featured/Featured";
+import BlogSection from "./blogSection/BlogSection";
 
 const Home = () => {
     return (
@@ -17,8 +18,7 @@ const Home = () => {
 
                     {/* Color Overlay */}
                     <div
-                        className="absolute inset-0 mix-blend-multiply"
-                        style={{ backgroundColor: '#272c33' }}
+                        className="absolute inset-0 mix-blend-multiply bg-slate-800"
                     ></div>
                     {/* BannerHeroSection */}
                     <div className="relative z-10">
@@ -29,6 +29,7 @@ const Home = () => {
 
             <main>
                 <Featured />
+                <BlogSection />
             </main>
         </>
 
