@@ -1,7 +1,7 @@
 import { PiVideoLight } from "react-icons/pi"
 const Featured = () => {
     return (
-        <div className="border-b">
+        <div className="border-b bg-white shadow-sm">
             <div className="max-w-screen-lg mx-auto">
                 <div className="grid max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5 px-5">
                     <div className="flex gap-2 items-center">

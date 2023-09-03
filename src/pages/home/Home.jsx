@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
             </header>
 
-            <main>
+            <main className="bg-[#e9edf2]">
                 <Featured />
                 <BlogSection />
             </main>
